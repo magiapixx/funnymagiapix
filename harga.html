@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Harga — Magiapix</title>
+<meta name="description" content="Paket dan kalkulator estimasi biaya proyek Magiapix.">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/pages.css">
+</head>
+<body data-page="Harga">
+<div class="grain" aria-hidden="true"></div>
+<div id="nav-slot"></div>
+
+<header class="p-hero">
+  <div class="wrap">
+    <p class="mono" style="color:var(--lime);margin:0 0 24px">✦ Tanpa biaya tersembunyi di balik lengan</p>
+    <h1>Harga yang <span class="serif">jujur.</span></h1>
+    <div class="lead"><p>Tiga paket untuk tiga tahap pertumbuhan, plus kalkulator untuk meracik kebutuhan Anda sendiri. Semua harga belum termasuk PPN 11%.</p><div class="big-n">Rp</div></div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="plans">
+      <div class="plan reveal"><h3>Kelinci</h3><p class="pm">Untuk startup yang baru muncul dari topi.</p><div class="price">Rp 45 jt <small>/ proyek</small></div><ul><li>Landing page sinematik</li><li>Mini brand kit</li><li>2 putaran revisi</li><li>Selesai 3–4 minggu</li></ul><a href="kontak.html" class="btn btn-ghost"><span>Pilih Kelinci</span><span class="dot"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div>
+      <div class="plan hot reveal"><span class="mono">Paling dipilih</span><h3>Tongkat Sihir</h3><p class="pm">Rebrand plus website lengkap untuk brand yang sedang tumbuh.</p><div class="price">Rp 180 jt <small>/ proyek</small></div><ul><li>Strategi &amp; identitas lengkap</li><li>Website hingga 12 halaman</li><li>Paket motion 6 aset</li><li>60 hari dukungan</li></ul><a href="kontak.html" class="btn"><span>Pilih Tongkat Sihir</span><span class="dot"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div>
+      <div class="plan reveal"><h3>Grand Illusion</h3><p class="pm">Tim kreatif khusus sebagai perpanjangan tim Anda.</p><div class="price">Rp 95 jt <small>/ bulan</small></div><ul><li>Tim 4 orang dedicated</li><li>Desain, dev &amp; growth</li><li>Laporan performa mingguan</li><li>Minimal kontrak 3 bulan</li></ul><a href="kontak.html" class="btn btn-ghost"><span>Hubungi kami</span><span class="dot"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow"><b>01</b><span class="mono">Racik sendiri</span></div>
+    <h2 class="reveal">Kalkulator <span class="serif">ramuan.</span></h2>
+    <form class="calc" id="calc" onsubmit="return false">
+      <div>
+        <div class="opts">
+          <div class="opt"><input type="checkbox" id="o1" value="35" checked><label for="o1">Strategi brand <span>Rp 35 jt</span></label></div>
+          <div class="opt"><input type="checkbox" id="o2" value="40"><label for="o2">Identitas visual <span>Rp 40 jt</span></label></div>
+          <div class="opt"><input type="checkbox" id="o3" value="60" checked><label for="o3">Website hingga 8 hlm <span>Rp 60 jt</span></label></div>
+          <div class="opt"><input type="checkbox" id="o4" value="45"><label for="o4">Pengalaman 3D/WebGL <span>Rp 45 jt</span></label></div>
+          <div class="opt"><input type="checkbox" id="o5" value="30"><label for="o5">Paket motion 6 aset <span>Rp 30 jt</span></label></div>
+          <div class="opt"><input type="checkbox" id="o6" value="55"><label for="o6">Chatbot AI brand <span>Rp 55 jt</span></label></div>
+        </div>
+        <p class="mono" style="color:var(--mute);margin:28px 0 12px">Kecepatan</p>
+        <div class="speed chips">
+          <input type="radio" name="speed" id="s1" data-mult="1" checked><label for="s1">Normal</label>
+          <input type="radio" name="speed" id="s2" data-mult="1.25"><label for="s2">Kilat (+25%)</label>
+          <input type="radio" name="speed" id="s3" data-mult="1.5"><label for="s3">Sim salabim (+50%)</label>
+        </div>
+      </div>
+      <div class="total"><span class="mono">Estimasi biaya</span><output id="calc-out">Rp 95 jt</output><a href="kontak.html" class="btn" style="background:#0B0A12;color:var(--lime);justify-content:space-between">Kirim racikan ini <span class="dot" style="background:var(--lime);color:#0B0A12"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div>
+    </form>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow"><b>02</b><span class="mono">Perbandingan</span></div>
+    <div class="tbl reveal">
+      <table class="compare">
+        <thead><tr><th>Fitur</th><th>Kelinci</th><th>Tongkat Sihir</th><th>Grand Illusion</th></tr></thead>
+        <tbody>
+          <tr><td>Workshop strategi</td><td class="n">—</td><td class="y">✦</td><td class="y">✦</td></tr>
+          <tr><td>Identitas visual lengkap</td><td>Mini kit</td><td class="y">✦</td><td class="y">✦</td></tr>
+          <tr><td>Jumlah halaman web</td><td>1</td><td>12</td><td>Tanpa batas</td></tr>
+          <tr><td>Aset motion</td><td class="n">—</td><td>6</td><td>12 / bulan</td></tr>
+          <tr><td>Kampanye iklan</td><td class="n">—</td><td class="n">—</td><td class="y">✦</td></tr>
+          <tr><td>Putaran revisi</td><td>2</td><td>4</td><td>Tanpa batas</td></tr>
+          <tr><td>Dukungan pasca-peluncuran</td><td>14 hari</td><td>60 hari</td><td>Selama kontrak</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<div id="foot-slot"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>

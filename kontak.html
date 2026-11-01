@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kontak — Magiapix</title>
+<meta name="description" content="Mulai proyek bersama Magiapix. Studio di Jakarta dan Bali.">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/pages.css">
+</head>
+<body data-page="Kontak">
+<div class="grain" aria-hidden="true"></div>
+<div id="nav-slot"></div>
+
+<header class="p-hero">
+  <div class="wrap">
+    <p class="mono" style="color:var(--lime);margin:0 0 24px">✦ <span id="clock">Jakarta 00:00 WIB</span> · Balasan dalam 24 jam</p>
+    <h1>Ucapkan <span class="serif">mantranya.</span></h1>
+  </div>
+</header>
+
+<section>
+  <div class="wrap contact">
+    <div>
+      <div class="info-card reveal"><span class="mono" style="color:var(--lime)">Email</span><h3>halo@magiapix.id</h3><p>Untuk proyek baru dan kolaborasi.</p></div>
+      <div class="info-card reveal"><span class="mono" style="color:var(--lime)">WhatsApp</span><h3>+62 811 2024 777</h3><p>Sen–Jum, 09.00–18.00 WIB.</p></div>
+      <div class="info-card reveal"><span class="mono" style="color:var(--lime)">Studio Jakarta</span><h3>Jl. Cahaya Bintang No. 7</h3><p>Kebayoran Baru, Jakarta Selatan 12160</p></div>
+      <div class="info-card reveal"><span class="mono" style="color:var(--lime)">Studio Bali</span><h3>Jl. Pantai Berawa No. 88</h3><p>Canggu, Badung 80361 · +62 361 555 0199</p></div>
+    </div>
+    <form class="form reveal" id="brief-form">
+      <div class="field"><label for="f-name">Nama Anda</label><input id="f-name" required placeholder="Siapa nama Anda?"></div>
+      <div class="field"><label for="f-co">Perusahaan</label><input id="f-co" placeholder="Nama brand atau perusahaan"></div>
+      <div class="field"><label for="f-mail">Email</label><input id="f-mail" type="email" required placeholder="nama@perusahaan.id"></div>
+      <div class="field"><label>Butuh mantra apa?</label><div class="chips">
+        <input type="checkbox" id="c1"><label for="c1">Brand</label><input type="checkbox" id="c2"><label for="c2">Website</label><input type="checkbox" id="c3"><label for="c3">Motion</label><input type="checkbox" id="c4"><label for="c4">Aplikasi</label><input type="checkbox" id="c5"><label for="c5">Kampanye</label><input type="checkbox" id="c6"><label for="c6">AI</label>
+      </div></div>
+      <div class="field"><label for="f-budget">Perkiraan anggaran</label><select id="f-budget"><option>Rp 45–100 jt</option><option>Rp 100–250 jt</option><option>Rp 250–500 jt</option><option>Di atas Rp 500 jt</option></select></div>
+      <div class="field"><label for="f-msg">Ceritakan tantangannya</label><textarea id="f-msg" rows="4" placeholder="Apa yang ingin Anda ubah?"></textarea></div>
+      <button class="btn btn-lime" type="submit" style="justify-self:start"><span class="roll"><span>Kirim mantra</span><span>Abrakadabra</span></span><span class="dot"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+    </form>
+  </div>
+</section>
+
+<div id="foot-slot"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
